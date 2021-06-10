@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.popit {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.popit__line {
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.popit__circle {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin: 0 7.5px;
+  background: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popit__line:nth-child(1) {
+  background: #ff7a7a;
+}
+.popit__line:nth-child(1) .popit__circle {
+  background: linear-gradient(145deg, #ff0000, #e60000);
+}
+.popit__line:nth-child(1) .popit__circle.active {
+  background: #ff1d1d;
+  box-shadow: inset 5px 5px 10px #e60000, inset -5px -5px 10px #ff0000;
+}
+.popit__line:nth-child(2) {
+  background: #ffc178;
+}
+.popit__line:nth-child(2) .popit__circle {
+  background: linear-gradient(145deg, #ffad00, #e69200);
+}
+.popit__line:nth-child(2) .popit__circle.active {
+  background: #ffc800;
+  box-shadow: inset 5px 5px 10px #e69200, inset -5px -5px 10px #ffad00;
+}
+.popit__line:nth-child(3) {
+  background: #fffa79;
+}
+.popit__line:nth-child(3) .popit__circle {
+  background: linear-gradient(145deg, #ffec00, #e6c700);
+}
+.popit__line:nth-child(3) .popit__circle.active {
+  background: #fbff00;
+  box-shadow: inset 5px 5px 10px #e6c700, inset -5px -5px 10px #ffec00;
+}
+.popit__line:nth-child(4) {
+  background: #79ff87;
+}
+.popit__line:nth-child(4) .popit__circle {
+  background: linear-gradient(145deg, #04ff00, #04e600);
+}
+.popit__line:nth-child(4) .popit__circle.active {
+  background: #00ff1e;
+  box-shadow: inset 5px 5px 10px #04e600, inset -5px -5px 10px #04ff00;
+}
+.popit__line:nth-child(5) {
+  background: #8d7aff;
+}
+.popit__line:nth-child(5) .popit__circle {
+  background: linear-gradient(145deg, #002dff, #0026e6);
+}
+.popit__line:nth-child(5) .popit__circle.active {
+  background: #3845ff;
+  box-shadow: inset 5px 5px 10px #0026e6, inset -5px -5px 10px #002dff;
+}
+.popit__line:nth-child(6) {
+  background: #ff7be2;
+}
+.popit__line:nth-child(6) .popit__circle {
+  background: linear-gradient(145deg, #b200ff, #9500e6);
+}
+.popit__line:nth-child(6) .popit__circle.active {
+  background: #af19ff;
+  box-shadow: inset 5px 5px 10px #9500e6, inset -5px -5px 10px #b200ff;
+}
