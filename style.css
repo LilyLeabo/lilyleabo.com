@@ -5,7 +5,9 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #f0f0f0;
+  background-image: url("bunny.jpg");
+  background-size: cover;
+  background-position-y: center;
 }
 
 .popit {
