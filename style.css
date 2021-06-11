@@ -20,6 +20,16 @@ body > div {
     background-position-x: -80px;
     min-height: 89vh;
   }
+  h1{
+    font-size:1.3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body > div {
+    background-position-y: -160px;
+    min-height: 89vh;
+  }
 }
 
 .popit {
