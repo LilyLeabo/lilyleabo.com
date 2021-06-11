@@ -4,10 +4,18 @@ body > div {
   align-items: top;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  min-height: 92vh;
   background-image: url("bunny.jpg");
   background-size: cover;
   background-position-y: 130px;
+}
+
+@media screen and (max-width: 400px) {
+  body > div {
+    background-position-y: 190px;
+    background-position-x: -80px;
+    min-height: 90vh;
+  }
 }
 
 .popit {
