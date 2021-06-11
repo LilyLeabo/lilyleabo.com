@@ -14,3 +14,19 @@ $(document).ready(function() {
 		obj.play();
 	});
 });
+
+$(document).ready(function() {
+	// Change background image of a div by clicking on the button
+	$('.button1').click(function() {
+		var imageUrl = 'purple.jpg';
+		$('.background').css('background-image', 'url(' + imageUrl + ')');
+	});
+	$('.button2').click(function() {
+		var imageUrl = 'bunny.jpg';
+		$('.background').css('background-image', 'url(' + imageUrl + ')');
+	});
+	$('.button3').click(function() {
+		var imageUrl = 'space.jpg';
+		$('.background').css('background-image', 'url(' + imageUrl + ')');
+	});
+});
