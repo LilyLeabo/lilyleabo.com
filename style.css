@@ -1,10 +1,14 @@
+body{
+  margin:0 !important;
+}
+
 body > div {
   display: flex;
   justify-content: center;
   align-items: top;
   margin: 0;
   padding: 0;
-  min-height: 92vh;
+  min-height: 91vh;
   background-image: url("bunny.jpg");
   background-size: cover;
   background-position-y: 130px;
@@ -14,7 +18,7 @@ body > div {
   body > div {
     background-position-y: 190px;
     background-position-x: -80px;
-    min-height: 90vh;
+    min-height: 89vh;
   }
 }
 
