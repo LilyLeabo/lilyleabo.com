@@ -29,4 +29,8 @@ $(document).ready(function() {
 		var imageUrl = 'space.jpg';
 		$('.background').css('background-image', 'url(' + imageUrl + ')');
 	});
+	$('.button4').click(function() {
+		var imageUrl = 'bun.png';
+		$('.background').css('background-image', 'url(' + imageUrl + ')');
+	});
 });
